@@ -1,0 +1,43 @@
+@media screen and (max-width: 576px) {
+    /*extra small*/
+   
+    #image-label {
+        height: 0rem;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 576.1px) and (max-width: 768px) {
+    /* small*/
+    
+    #image-label {
+        height: 0rem;
+        width: auto;
+    }
+}
+
+@media screen and (min-width:768.1px)and (max-width: 992px) {
+    /* mediaum*/
+    
+    #image-label {
+        height: 10rem;
+        width: auto;
+    }
+}
+
+@media screen and (min-width:992.1px) and (max-width: 1200px) {
+    /* large*/
+    
+    #image-label {
+        height: 10rem;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1200.1px) {
+    
+    #image-label {
+        height: 10rem;
+        width: auto;
+    }
+}

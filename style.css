@@ -1,0 +1,481 @@
+/* Small devices (landscape phones, 576px and up)*/
+
+body {
+    background: url(bootstrap/image/leaf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+.navigation_bar_icon {
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+}
+
+.navigation {
+    display: none;
+    top: 0;
+    left: 0;
+    position: fixed;
+    font-size: 1.5rem;
+    color: white;
+    overflow-y: scroll;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(73, 25, 25);
+    z-index: 1;
+}
+
+#close_symbol:hover {
+    background: rgb(73, 25, 25);
+}
+
+.navigation_image {
+    height: 13rem;
+    width: 13rem;
+}
+
+.navigation::-webkit-scrollbar {
+    display: none;
+}
+
+.navigation_item {
+    text-align: center;
+    color: white;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.navigation_hr {
+    width: 100%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.nav-item:hover {
+    background: white;
+}
+
+.navigation_item a:hover {
+    color: rgb(73, 25, 25);
+}
+
+.navigation_link {
+    color: white;
+}
+
+.web_developer_label {
+    font-size: .9rem;
+}
+#web_developer_label:hover {
+    background: none;
+}
+
+_:-ms-lang(x), .navigation_image {
+    transform: rotate(-90deg);
+}
+
+.contents {
+    font-family: 'Lato', sans-serif;
+    background: black;
+    opacity: .7;
+}
+
+.skill {
+    background: white;
+    border-radius: .5rem;
+}
+
+.skill_content {
+    color: black;
+    background: white;
+}
+
+.about_me_hr {
+    border: .1rem solid white;
+    width: 5rem;
+}
+
+hr {
+    border: .1rem solid white;
+}
+
+.what_iam_good_at_hr {
+    width: 10rem
+}
+
+.contact_me_hr {
+    border: .1rem solid white;
+    width: 5rem;
+}
+
+.contact_me {
+    background: white;
+    /*margin-left: 6rem;
+    width: 25rem;*/
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.contact_me a {
+    color: black;
+    text-decoration: none;
+}
+
+@media (min-width: 576px) {
+    body {
+        background: url(bootstrap/image/leaf.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        scroll-behavior: smooth;
+    }
+    .navigation_bar_icon {
+        position: fixed;
+        top: 1rem;
+        left: 2rem;
+    }
+    .navigation {
+        display: none;
+        top: 0;
+        left: 0;
+        position: fixed;
+        font-size: 1.5rem;
+        color: white;
+        overflow-y: scroll;
+        height: 100%;
+        width: 15rem;
+        background-color: rgb(73, 25, 25);
+        z-index: 1;
+    }
+    #close_symbol:hover {
+        background: rgb(73, 25, 25);
+    }
+    .navigation_image {
+        height: 13rem;
+        width: 13rem;
+    }
+    #web_developer_label:hover {
+        background: none;
+    }
+    .navigation::-webkit-scrollbar {
+        display: none;
+    }
+    .navigation_item {
+        text-align: center;
+        color: white;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .navigation_hr {
+        width: 100%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    .nav-item:hover {
+        background: white;
+    }
+    .navigation_item a:hover {
+        color: rgb(73, 25, 25);
+    }
+    .navigation_link {
+        color: white;
+    }
+    .web_developer_label {
+        font-size: .9rem;
+    }
+    _:-ms-lang(x), .navigation_image {
+        transform: rotate(-90deg);
+    }
+    .contents {
+        font-family: 'Lato', sans-serif;
+        background: black;
+        opacity: .7;
+    }
+    .skill {
+        background: white;
+        border-radius: .5rem;
+    }
+    .skill_content {
+        color: black;
+        background: white;
+    }
+    .about_me_hr {
+        border: .1rem solid white;
+        width: 5rem;
+    }
+    hr {
+        border: .1rem solid white;
+    }
+    .what_iam_good_at_hr {
+        width: 10rem
+    }
+    .contact_me_hr {
+        border: .1rem solid white;
+        width: 5rem;
+    }
+    .contact_me {
+        background: white;
+        /*margin-left: 6rem;*/
+        width: 25rem;
+        border-radius: .5rem;
+    }
+    .contact_me a {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+    body {
+        background: url(bootstrap/image/leaf.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        scroll-behavior: smooth;
+    }
+    .navigation {
+        display: block;
+        top: 0;
+        left: 0;
+        position: fixed;
+        font-size: 1.5rem;
+        color: white;
+        overflow-y: scroll;
+        height: 100%;
+        width: 15rem;
+        background-color: rgb(73, 25, 25);
+        z-index: 1;
+    }
+    .close_symbol {
+        display: none;
+    }
+    .navigation_image {
+        height: 13rem;
+        width: 13rem;
+    }
+    .navigation::-webkit-scrollbar {
+        display: none;
+    }
+    .navigation_item {
+        text-align: center;
+        color: white;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .navigation_item a:hover {
+        color: rgb(73, 25, 25);
+    }
+    .navigation_hr {
+        width: 100%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    .nav-item:hover {
+        background: white;
+    }
+    .navigation {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    _:-ms-lang(x), .navigation_image {
+        transform: rotate(-90deg);
+    }
+    .navigation_link {
+        color: white;
+    }
+    .navigation_bar_icon {
+        display: none;
+    }
+    .web_developer_label {
+        font-size: .9rem;
+    }
+    #web_developer_label:hover {
+        background: none;
+    }
+    hr {
+        border: .1rem solid white;
+    }
+    .contents {
+        font-family: 'Lato', sans-serif;
+        background: black;
+        opacity: .7;
+    }
+    .about_me_hr {
+        border: .1rem solid white;
+        width: 5rem;
+    }
+    .about_content {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    p {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .what_iam_good_at_hr {
+        width: 10rem
+    }
+    .skill {
+        background: white;
+        border-radius: .5rem;
+    }
+    .skill_content {
+        color: black;
+        background: white;
+    }
+    /*.skill:hover{
+        background: white;
+    }
+    .skill_content:hover{
+        color: black;
+        background: white;
+    }*/
+    .contact_me_hr {
+        border: .1rem solid white;
+        width: 5rem;
+    }
+    .contact_me {
+        background: white;
+        width: 25rem;
+        border-radius: .5rem;
+    }
+    .contact_me a {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+    body {
+        background: url(bootstrap/image/leaf.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        scroll-behavior: smooth;
+    }
+    .navigation {
+        top: 0;
+        left: 0;
+        position: fixed;
+        font-size: 1.5rem;
+        color: white;
+        overflow-y: scroll;
+        height: 100%;
+        width: 20rem;
+        background-color: rgb(73, 25, 25);
+        z-index: 1;
+    }
+    .close_symbol {
+        display: none;
+    }
+    .navigation_image {
+        height: 15rem;
+        width: 15rem;
+    }
+    .navigation::-webkit-scrollbar {
+        display: none;
+    }
+    .navigation_item {
+        text-align: center;
+        color: white;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .navigation_item a:hover {
+        color: rgb(73, 25, 25);
+    }
+    .navigation_hr {
+        width: 100%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    .nav-item:hover {
+        background: white;
+    }
+    .navigation {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    _:-ms-lang(x), .navigation_image {
+        transform: rotate(-90deg);
+    }
+    .navigation_link {
+        color: white;
+    }
+    .navigation_bar_icon {
+        display: none;
+    }
+    .web_developer_label {
+        font-size: .9rem;
+    }
+    hr {
+        border: .1rem solid white;
+    }
+    .contents {
+        font-family: 'Lato', sans-serif;
+        background: black;
+        opacity: .7;
+    }
+    .about_me_hr {
+        border: .1rem solid white;
+        width: 5rem;
+    }
+    .about_content {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    p {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .what_iam_good_at_hr {
+        width: 10rem
+    }
+    .skill {
+        background: white;
+        border-radius: .5rem;
+    }
+    .skill_content {
+        color: black;
+        background: white;
+    }
+    /*.skill:hover{
+        background: white;
+    }
+    .skill_content:hover{
+        color: black;
+        background: white;
+    }*/
+    .contact_me_hr {
+        border: .1rem solid white;
+        width: 5rem;
+    }
+    .contact_me {
+        background: white;
+        width: 30rem;
+        border-radius: .5rem;
+    }
+    .contact_me a {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    ...
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    ...
+}
