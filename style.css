@@ -306,6 +306,7 @@ hr {
     .contents {
         font-family: 'Lato', sans-serif;
         background: black;
+        height:100%;
         opacity: .7;
     }
     .about_me_hr {
