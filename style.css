@@ -82,6 +82,7 @@ _:-ms-lang(x), .navigation_image {
     font-family: 'Lato', sans-serif;
     background: black;
     opacity: .7;
+    height: 100vh;
 }
 
 .skill {
@@ -195,6 +196,7 @@ hr {
         font-family: 'Lato', sans-serif;
         background: black;
         opacity: .7;
+        height: 100vh;
     }
     .skill {
         background: white;
