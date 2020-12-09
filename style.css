@@ -195,6 +195,7 @@ hr {
         font-family: 'Lato', sans-serif;
         background: black;
         opacity: .7;
+        height:100%;
     }
     .skill {
         background: white;
