@@ -195,7 +195,6 @@ hr {
         font-family: 'Lato', sans-serif;
         background: black;
         opacity: .7;
-        height:100%;
     }
     .skill {
         background: white;
@@ -307,7 +306,6 @@ hr {
     .contents {
         font-family: 'Lato', sans-serif;
         background: black;
-        height:100%;
         opacity: .7;
     }
     .about_me_hr {
@@ -364,6 +362,7 @@ hr {
         background-size: cover;
         background-attachment: fixed;
         scroll-behavior: smooth;
+        height: 100%;
     }
     .navigation {
         top: 0;
@@ -426,7 +425,9 @@ hr {
     .contents {
         font-family: 'Lato', sans-serif;
         background: black;
+        height: 100vh;
         opacity: .7;
+        
     }
     .about_me_hr {
         border: .1rem solid white;
