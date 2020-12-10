@@ -70,6 +70,7 @@ body {
 .web_developer_label {
     font-size: .9rem;
 }
+
 #web_developer_label:hover {
     background: none;
 }
@@ -82,7 +83,7 @@ _:-ms-lang(x), .navigation_image {
     font-family: 'Lato', sans-serif;
     background: black;
     opacity: .7;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .skill {
@@ -196,7 +197,7 @@ hr {
         font-family: 'Lato', sans-serif;
         background: black;
         opacity: .7;
-        height: 100vh;
+        min-height: 100vh;
     }
     .skill {
         background: white;
@@ -309,7 +310,7 @@ hr {
         font-family: 'Lato', sans-serif;
         background: black;
         opacity: .7;
-        height: 100vh;
+        min-height: 100vh;
     }
     .about_me_hr {
         border: .1rem solid white;
@@ -365,7 +366,6 @@ hr {
         background-size: cover;
         background-attachment: fixed;
         scroll-behavior: smooth;
-        
     }
     .navigation {
         top: 0;
@@ -428,9 +428,8 @@ hr {
     .contents {
         font-family: 'Lato', sans-serif;
         background: black;
-        height: 100vh;
+        min-height: 100vh;
         opacity: .7;
-        
     }
     .about_me_hr {
         border: .1rem solid white;
